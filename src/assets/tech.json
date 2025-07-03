@@ -1,33 +1,43 @@
 [
   {
-    "frontend": [
+    "languages": [
       {
-        "id": 0,
-        "name": "HTML",
-        "image": "images/tech/html-5-svgrepo-com.svg"
-      },
-      {
-        "id": 1,
-        "name": "CSS",
-        "image": "images/tech/css-3-svgrepo-com.svg"
-      },
-      {
-        "id": 2,
         "name": "Javascript",
         "image": "images/tech/js-svgrepo-com.svg"
       },
       {
-        "id": 3,
+        "name": "Python",
+        "image": "images/tech/python-svgrepo-com.svg"
+      },
+      {
+        "name": "CSS",
+        "image": "images/tech/css-3-svgrepo-com.svg"
+      },
+      {
+        "name": "HTML",
+        "image": "images/tech/html-5-svgrepo-com.svg"
+      }
+    ]
+  },
+  {
+    "frontend": [
+      {
         "name": "React",
         "image": "images/tech/react-svgrepo-com.svg"
       },
       {
-        "id": 4,
+        "name": "Next.js",
+        "image": "images/tech/next-js-svgrepo-com.svg"
+      },
+      {
+        "name": "React Native",
+        "image": "images/tech/react-svgrepo-com.svg"
+      },
+      {
         "name": "Tailwind",
         "image": "images/tech/tailwind-svgrepo-com.svg"
       },
       {
-        "id": 5,
         "name": "Bootstrap",
         "image": "images/tech/bootstrap-icon.svg"
       }
@@ -36,48 +46,40 @@
   {
     "backend": [
       {
-        "id": 0,
         "name": "Node.js",
         "image": "images/tech/node-js-svgrepo-com.svg"
       },
       {
-        "id": 1,
         "name": "Express.js",
         "image": "images/tech/Express.svg"
       },
       {
-        "id": 2,
         "name": "PostgreSQL",
         "image": "images/tech/postgresql-icon.svg"
       },
       {
-        "id": 3,
         "name": "Prisma ORM",
         "image": "images/tech/prisma-3.svg"
       }
     ]
   },
   {
-    "other": [
+    "devops": [
       {
-        "id": 0,
         "name": "Github",
         "image": "images/github-svgrepo-com.svg"
       },
       {
-        "id": 1,
-        "name": "npm",
-        "image": "images/tech/npm-svgrepo-com.svg"
+        "name": "Docker",
+        "image": "images/tech/docker-svgrepo-com.svg"
       },
       {
-        "id": 2,
-        "name": "Jest",
-        "image": "images/tech/jest-2.svg"
+        "name": "AWS",
+        "image": "images/tech/aws-svgrepo-com.svg"
       },
       {
-        "id": 3,
-        "name": "Photoshop",
-        "image": "images/tech/adobe-photoshop-svgrepo-com.svg"
+        "name": "CI/CD",
+        "image": "images/tech/ci-cd-svgrepo-com.svg"
       }
     ]
   }

@@ -1,21 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   @font-face {
-    font-family: "Avigea";
+    font-family: 'Avigea';
     font-style: normal;
     font-weight: 100 900;
     font-display: swap;
-    src: url("/src/assets/Avigea.ttf") format("truetype");
+    src: url('/src/assets/Avigea.ttf') format('truetype');
   }
   @font-face {
-    font-family: "DM Sans";
+    font-family: 'Onest';
     font-style: normal;
     font-weight: 100 900;
     font-display: swap;
-    src: url("/src/assets/DMSans-VariableFont_opsz,wght.ttf") format("truetype");
+    src: url('src/assets/Onest-VariableFont_wght.ttf') format('truetype');
   }
 }
 
