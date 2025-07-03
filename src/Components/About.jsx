@@ -1,7 +1,7 @@
 export default function About() {
   return (
-    <div id="about" className="flex flex-col items-center justify-center w-full p-4 lg:p-8">
-      <p className="text-4xl md:text-6xl font-serif font-bold tracking-tight pb-2 sm:pb-6 text-indigo-200/90 opacity-0 intersect:opacity-100 delay-300 duration-700 transition intersect-once">
+    <div id="about" className="flex flex-col items-center justify-center">
+      <p className="text-4xl md:text-6xl xl:text-7xl font-serif font-bold tracking-tight bg-gradient-to-r from-indigo-300 to-indigo-600 inline-block text-transparent bg-clip-text">
         A Little About Me...
       </p>
       <div className="text-xl text-indigo-200/90 tracking-tight pb-1 sm:max-w-3xl opacity-0 intersect:opacity-100 delay-500 duration-700 transition intersect-once">
