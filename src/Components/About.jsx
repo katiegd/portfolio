@@ -1,10 +1,10 @@
 export default function About() {
   return (
-    <div id="about" className="flex flex-col items-center justify-center">
+    <div className="flex flex-col md:items-center justify-center px-4 md:px-0">
       <p className="text-4xl md:text-6xl xl:text-7xl font-serif font-bold tracking-tight bg-gradient-to-r from-indigo-300 to-indigo-600 inline-block text-transparent bg-clip-text">
         A Little About Me...
       </p>
-      <div className="text-xl text-indigo-200/90 tracking-tight pb-1 sm:max-w-3xl opacity-0 intersect:opacity-100 delay-500 duration-700 transition intersect-once">
+      <div className="text-xl text-indigo-200/90 tracking-tight pb-1 sm:max-w-3xl ">
         <p className="pb-4">
           I am a creative self-starter with a passion for learning, problem-solving, and exploring new technologies. My background
           in photography, video production, and design has taught me to appreciate the art of making things look their best,

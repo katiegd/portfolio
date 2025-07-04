@@ -45,12 +45,13 @@ export default function Contact() {
       );
   }
   return (
-    <div className="w-full flex flex-col justify-center items-center">
-      <p className="text-4xl md:text-6xl xl:text-7xl text-center pb-10 font-serif font-bold tracking-tight bg-gradient-to-r from-indigo-300 to-indigo-600 inline-block text-transparent bg-clip-text">
+    <div className="w-full flex flex-col justify-center items-center px-4 md:px-0">
+      <p className="text-4xl md:text-6xl xl:text-7xl text-center font-serif font-bold tracking-tight bg-gradient-to-r from-indigo-300 to-indigo-600 inline-block text-transparent bg-clip-text">
         Get in touch:
       </p>
-      <div className="border-animation md:w-[50vw] bg-indigo-950/40 shadow-lg p-8 md:p-10 rounded-xl transition-all duration-300 relative overflow-visible">
-        <form ref={form} onSubmit={sendEmail} className="flex flex-col w-[70vw] sm:w-full font-sans font-bold">
+      <p className="text-indigo-200/90 text-center pb-10">Want to collaborate on a project? Have a question? Let me know!</p>
+      <div className="border-animation w-full md:w-[50vw] bg-indigo-950/40 shadow-lg p-4 md:p-10 rounded-xl transition-all duration-300 relative overflow-visible">
+        <form ref={form} onSubmit={sendEmail} className="flex flex-col w-full font-sans font-bold">
           <label htmlFor="name" className="text-indigo-200/90">
             Your Name:
           </label>

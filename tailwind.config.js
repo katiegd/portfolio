@@ -4,6 +4,7 @@ import tailwindcssIntersect from 'tailwindcss-intersect';
 
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'class',
   theme: {
     screens: {
       sm: '480px',
