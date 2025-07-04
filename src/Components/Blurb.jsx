@@ -1,17 +1,17 @@
 export default function Blurb() {
   return (
     <div className="md:flex flex flex-col md:flex-row items-center justify-center px-4 md:px-6 lg:px-0 gap-6 md:gap-10 max-w-screen-lg">
-      <div className="profile-gradient-border rounded-full relative w-48 h-48 md:w-full md:h-full overflow-hidden ">
-        <img src="src/assets/caricature.jpg" alt="Katie Duryea" className="w-full h-full object-cover" />
+      <div className="profile-gradient-border rounded-full relative w-48 h-48 md:w-full md:h-full overflow-hidden shadow-xl">
+        <img src="src/assets/caricature.jpg" alt="Katie Duryea" className="w-full h-full object-cover " />
       </div>
       <div className="text-slate-700 dark:text-slate-200/90 flex flex-col gap-1 md:gap-1 max-w-2xl md:max-w-4xl">
-        <p className="text-4xl md:text-6xl xl:text-7xl font-serif font-bold tracking-tight bg-gradient-to-l from-indigo-600 to-indigo-800 dark:from-indigo-300 dark:to-indigo-600 inline-block text-transparent bg-clip-text  md:pb-0 pb-4 text-center md:text-left">
+        <p className="text-4xl md:text-6xl xl:text-7xl font-serif font-bold tracking-tight bg-gradient-to-l from-indigo-300 to-indigo-600 dark:from-indigo-300 dark:to-indigo-600 inline-block text-transparent bg-clip-text  md:pb-0 pb-4 text-center md:text-left">
           Hi, I&apos;m Katie.
         </p>
         <div className="text-lg md:text-xl xl:text-2xl flex flex-col animate-fade-down text-start font-sans">
           <p className="tracking-tight pb-4">
             I&apos;m a{' '}
-            <span className="font-bold bg-gradient-to-r from-rose-600 to-rose-800 dark:from-amber-300 dark:to-amber-600 inline-block text-transparent bg-clip-text">
+            <span className="font-bold bg-gradient-to-r from-blue-600 to-emerald-600 dark:from-amber-300 dark:to-amber-600 inline-block text-transparent bg-clip-text">
               full stack developer
             </span>{' '}
             who loves great design and building clean, user-friendly websites. With a background in video editing, I&apos;ve
