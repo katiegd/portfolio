@@ -2,7 +2,7 @@ export default function Blurb() {
   return (
     <div className="md:flex flex flex-col md:flex-row items-center justify-center px-4 md:px-6 lg:px-0 gap-6 md:gap-10 max-w-screen-lg">
       <div className="profile-gradient-border rounded-full relative w-48 h-48 md:w-full md:h-full overflow-hidden shadow-xl">
-        <img src="src/assets/caricature.jpg" alt="Katie Duryea" className="w-full h-full object-cover " />
+        <img src="images/caricature.jpg" alt="Katie Duryea" className="w-full h-full object-cover " />
       </div>
       <div className="text-slate-700 dark:text-slate-200/90 flex flex-col gap-1 md:gap-1 max-w-2xl md:max-w-4xl">
         <p className="text-4xl md:text-6xl xl:text-7xl font-serif font-bold tracking-tight bg-gradient-to-l from-indigo-300 to-indigo-600 dark:from-indigo-300 dark:to-indigo-600 inline-block text-transparent bg-clip-text  md:pb-0 pb-4 text-center md:text-left">

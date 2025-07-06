@@ -88,15 +88,24 @@ export default function Contact() {
             onChange={(e) => handleChange(e)}
             required
           />
-          <div className="flex gap-4 items-center">
+          <div className="flex gap-4 items-center flex-col ">
             <button
               type="submit"
-              className="dark:bg-indigo-500/70 bg-indigo-500/70 w-full p-2 rounded-md dark:text-indigo-200 text-slate-100 font-extrabold hover:bg-indigo-600/90 outline outline-transparent hover:outline-indigo-300 transition-all duration-300"
+              className={`${
+                !formData.name || !formData.email || !formData.message
+                  ? 'opacity-50 bg-indigo-500/70 cursor-not-allowed hover:bg-indigo-500/70 hover:outline-transparent'
+                  : 'dark:bg-indigo-500/70 bg-indigo-500/70'
+              } w-full p-2 rounded-md dark:text-indigo-200 text-slate-100 font-extrabold hover:bg-indigo-600/90 outline outline-transparent hover:outline-indigo-300 transition-all duration-300`}
               onClick={() => setSubmitting(true)}
+              disabled={!formData.name || !formData.email || !formData.message}
             >
               {submit ? 'Sending...' : 'Send'}
             </button>{' '}
-            {message ? <p className="text-slate-700 font-bold">{message}</p> : ''}
+            {message && (
+              <p className="text-sm text-green-600 dark:text-green-400 text-left dark:bg-green-500/20 bg-green-500/10 p-2 rounded-md px-4 py-2 border border-green-500">
+                {message}
+              </p>
+            )}
           </div>
         </form>
       </div>

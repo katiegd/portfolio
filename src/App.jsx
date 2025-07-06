@@ -98,7 +98,7 @@ function App() {
     <>
       <div className="relative h-full w-full bg-slate-100 dark:bg-slate-950 transition-all duration-300">
         {/* Lines design div */}
-        <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#e0e0e0_1px,transparent_1px),linear-gradient(to_bottom,#e0e0e03b_1px,transparent_1px)] dark:bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:24px_24px]"></div>
+        <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#e0e0e0_1px,transparent_1px),linear-gradient(to_bottom,#e0e0e0_1px,transparent_1px)] dark:bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:24px_24px]"></div>
         {/* Background gradient div */}
         <div className="[background:radial-gradient(125%_125%_at_50%_10%,#eeeeee_50%,#b4adec_100%)] dark:[background:radial-gradient(125%_125%_at_50%_10%,#000_20%,#2e005a_100%)] scroll-smooth mx-auto min-h-screen ">
           <div className="flex flex-col gap-16 md:gap-10 items-center justify-center pt-16 md:pt-0">
