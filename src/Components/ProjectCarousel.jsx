@@ -1,5 +1,5 @@
-import { useEffect, useState, useRef } from 'react';
-import projects from '../assets/projects.json';
+import { useEffect, useState, useRef } from "react";
+import projects from "../assets/projects.json";
 
 export default function ProjectCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -42,10 +42,7 @@ export default function ProjectCarousel() {
         onMouseLeave={startTimer}
       >
         {/* Project Display */}
-        <div
-          className="flex transition-transform duration-500 ease-in-out"
-          style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-        >
+        <div className="flex transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
           {projects.map((project, index) => (
             <div
               key={index}
@@ -114,7 +111,7 @@ export default function ProjectCarousel() {
               key={index}
               onClick={() => goToSlide(index)}
               className={`w-2 h-2 md:w-3 md:h-3 rounded-full transition-all duration-300 ${
-                index === currentIndex ? 'bg-indigo-400 scale-125' : 'dark:bg-slate-600 bg-indigo-500/20 hover:bg-indigo-500/80'
+                index === currentIndex ? "bg-indigo-400 scale-125" : "dark:bg-slate-600 bg-indigo-500/20 hover:bg-indigo-500/80"
               }`}
             />
           ))}

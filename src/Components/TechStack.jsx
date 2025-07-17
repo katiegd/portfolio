@@ -1,17 +1,17 @@
-import tech from '../assets/tech.json';
+import tech from "../assets/tech.json";
 
 export default function TechStack() {
   // Define category names and their corresponding tech array keys
   const categories = [
-    { name: 'Languages', key: 'languages' },
-    { name: 'Frontend', key: 'frontend' },
-    { name: 'Backend', key: 'backend' },
-    { name: 'DevOps & Tools', key: 'devops' },
+    { name: "Languages", key: "languages" },
+    { name: "Frontend", key: "frontend" },
+    { name: "Backend", key: "backend" },
+    { name: "DevOps & Tools", key: "devops" },
   ];
 
   return (
     <>
-      <div id="tech" className="flex flex-col items-center justify-center text-md">
+      <div id="tech" className="animate-fade-up flex flex-col items-center justify-center text-md">
         <div className="mx-auto max-w-7xl px-2 lg:px-8 flex flex-col sm:items-center opacity-0 intersect:opacity-100 delay-300 duration-700 transition intersect-once">
           <h2 className="text-4xl md:text-6xl xl:text-7xl text-center font-serif font-bold tracking-tight bg-gradient-to-l from-indigo-300 to-indigo-600 inline-block text-transparent bg-clip-text">
             Tech Stack
